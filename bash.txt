@@ -1,0 +1,33 @@
+Some scripts exported from bash history
+
+959  mkdir git-test
+  960  cd git-test
+  961  mkdir test01
+  962  cd test01
+  963  git init
+  964  touch first.txt
+  965  git add .
+  966  git commit -m "first"
+  967  touch second.txt
+  968  git add .
+  969  git commit -m "2nd"
+  970  touch third.txt
+  971  touch fourth.txt
+  972  git add .
+  973  git commit -m "3rd & 4th"
+  974  git log
+  975  git branch
+  976  git checkout new-feature
+  977  git checkout -b new-feature
+  978  git branch
+  979  git checkout master
+  980  git checkout new-feature
+  981  touch lab02.txt
+  982  git add .
+  983  git commit -m "lab02"
+ 1039  git clone https://github.com/Sv6/CLI-Git-Lab.git
+ 1016  git checkout master
+ 1017  git merge new-feature
+ 1026  git remote add origin https://github.com/Sv6/Lab1_CLI.git
+ 1027  git branch -M main
+ 1028  git push -u origin main
